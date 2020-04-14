@@ -8,15 +8,15 @@ body {
     height: 100%;
   }
  
-  .logo {
+  /* .logo {
     width: 150px;
     height: 100px;
     margin: 3% 10%;
-  }
+  } */
 
   header {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
     width: 100%;
   }
 
@@ -25,7 +25,7 @@ body {
     padding-top: 15pt;
     text-align: left;
     text-shadow: 2px 2px;
-    font-size: 50px;
+    font-size: 40pt;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: transparent;
@@ -44,7 +44,7 @@ body {
     width: 15%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15pt;
     font-style: italic;
     border-radius: 25px;
     background: transparent;
@@ -55,7 +55,7 @@ body {
 
   .has-border {
     border-radius: 25px;
-    border: 2px solid white;
+    border: 2px solid rgb(16, 46, 56);
     background: none;
     padding: 15px;
     background-color: rgb(27, 77, 94);
@@ -106,15 +106,15 @@ body {
     width: 60%;
     height: 20%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15pt;
+    font-style: italic;
     border-radius: 15px;
-    background-color: rgb(27, 77, 94);
+    background-color: rgb(16, 46, 56);
     padding: 15px;
     padding-bottom: 6%;
     text-align: center;
     color: white;
     letter-spacing: 5px;
-    font-style: italic;
     cursor: pointer;
     transition-duration: 0.4s;
     border: solid whitesmoke;
