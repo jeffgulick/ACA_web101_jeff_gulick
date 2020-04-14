@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://image.freepik.com/free-photo/paint-drops-black-background_23-2147798308.jpg);
+    background-color: rgb(27, 77, 94);
+    /* background-image: url(https://image.freepik.com/free-photo/paint-drops-black-background_23-2147798308.jpg); */
     background-repeat: no-repeat;
     background-size: 1600px 1000px;
     width: 100%;
@@ -17,6 +18,16 @@ body {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 100%;
+  }
+
+  header > h1 {
+    grid-column: 1/2;
+    padding-top: 15pt;
+    text-align: left;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: transparent;
   }
 
   main {
@@ -59,7 +70,7 @@ body {
 
 
   #profile-pic {
-    width: 300px
+    width: 300px;
     height: 300px;
     border-radius: 50%;
     margin: auto auto;
