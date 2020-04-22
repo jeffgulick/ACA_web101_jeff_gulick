@@ -1,1 +1,159 @@
 /* Resume styles */
+
+body {
+    width: 750pt;
+    height: 850pt;
+    align-items: center;
+    margin-left: 115pt;
+    border: 2px solid;
+}
+
+header {
+    height: 100pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+
+main {
+    height: 750pt;
+    width: 750pt;
+    display: grid;
+    grid-template-columns: 33% 16.5% 16.5% 34%;
+    grid-template-rows: 33% 33% 11% 23%;
+}
+
+.profile {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: left;
+}
+
+.profile_title {
+    border-bottom: 1px solid;
+    text-align: center;
+    padding-bottom: 10pt;
+}
+
+.education {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.education > p{
+    margin-top: 0;
+}
+
+.education > h4 {
+    margin-bottom: 2px;
+}
+
+.education_title {
+    border: 1px solid;
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.experience {
+    grid-column: 1/5;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.experience > h3 {
+    border: 1px solid;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 375px;
+    margin-right: 375px;
+    padding-top: 10px;
+}
+
+.job_one {
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+
+.picture {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+    align-items: flex-end;
+}
+
+img {
+    border-radius: 75%;
+    height: 200px;
+    width: 200px;
+    margin-left: 50pt;
+}
+
+.skills {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.skills > p {
+    border: 1px solid;
+    text-align: center;
+    height: 80%;
+    margin-right: 40pt;
+    margin-left: 40pt;
+    margin-top: 10px;
+}
+
+.skill_title {
+    text-align: center;
+    grid-row: 2/3;
+    margin-bottom: 0;
+}
+
+.contact {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.reach_me {
+    border-bottom: 1px solid;
+    text-align: center;
+    padding-bottom: 10pt;
+}
+
+.expertise {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.expertise > p{
+    margin-top: 0;
+}
+
+.expertise > h4 {
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+
+.expertise_title {
+    border: 1px solid;
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.expertise > p {
+    text-align: center;
+}
+
+.job_two {
+    grid-column: 3/5;
+    grid-row: 4/5;
+}
