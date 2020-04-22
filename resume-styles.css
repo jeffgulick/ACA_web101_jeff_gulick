@@ -4,8 +4,8 @@ body {
     width: 750pt;
     height: 850pt;
     align-items: center;
-    margin-left: 115pt;
-    border: 2px solid;
+    margin-left: 100pt;
+    border: 1pt solid;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid;
+    border: 1pt solid;
 }
 
 main {
@@ -58,9 +58,23 @@ main {
 }
 
 .experience {
-    grid-column: 1/5;
+    grid-column: 2/4;
     grid-row: 3/4;
     text-align: center;
+}
+
+.exp_line_one {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-top: 1pt solid;
+    margin-top: 23pt;
+}
+
+.exp_line_two {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    border-top: 1pt solid;
+    margin-top: 23pt;
 }
 
 .experience > h3 {
@@ -68,14 +82,17 @@ main {
     text-align: center;
     height: 30px;
     margin-top: 10px;
-    margin-left: 375px;
-    margin-right: 375px;
     padding-top: 10px;
 }
 
 .job_one {
     grid-column: 1/3;
     grid-row: 4/5;
+}
+
+.job_one > h4 {
+    text-align: center;
+    margin-left: 10pt;
 }
 
 .picture {
@@ -156,4 +173,9 @@ img {
 .job_two {
     grid-column: 3/5;
     grid-row: 4/5;
+}
+
+.job_two > h4 {
+    text-align: left;
+    margin-left: 20pt;
 }
