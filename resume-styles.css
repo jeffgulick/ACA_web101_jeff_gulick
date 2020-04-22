@@ -5,7 +5,7 @@ body {
     height: 850pt;
     align-items: center;
     margin-left: 100pt;
-    border: 1pt solid;
+    /* border: 1pt solid; */
 }
 
 header {
@@ -13,7 +13,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1pt solid;
+    /* border: 1pt solid; */
+    background-color: aquamarine;
 }
 
 main {
@@ -43,18 +44,21 @@ main {
 
 .education > p{
     margin-top: 0;
+    margin-left: 10px;
 }
 
 .education > h4 {
     margin-bottom: 2px;
+    margin-left: 10px;
 }
 
 .education_title {
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
     height: 30px;
     margin: 10px;
     padding-top: 10px;
+    background-color: aquamarine;
 }
 
 .experience {
@@ -78,11 +82,12 @@ main {
 }
 
 .experience > h3 {
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
     height: 30px;
     margin-top: 10px;
     padding-top: 10px;
+    background-color: aquamarine;
 }
 
 .job_one {
@@ -119,12 +124,13 @@ img {
 }
 
 .skills > p {
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
-    height: 80%;
+    height: 70%;
     margin-right: 40pt;
     margin-left: 40pt;
     margin-top: 10px;
+    background-color: aquamarine;
 }
 
 .skill_title {
@@ -159,11 +165,12 @@ img {
 }
 
 .expertise_title {
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
     height: 30px;
     margin: 10px;
     padding-top: 10px;
+    background-color: aquamarine;
 }
 
 .expertise > p {
