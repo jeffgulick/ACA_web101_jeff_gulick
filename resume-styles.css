@@ -9,12 +9,28 @@ body {
 }
 
 header {
-    height: 100pt;
+    height: 150pt;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1pt solid; */
-    background-color: aquamarine;
+    background-color: #C5D3EE;
+}
+
+header > h1 {
+    background-color: white;
+    font-size: 1em;
+    height: 60%;
+    width: 60%;
+    text-align: center;
+    font-size: 2.5em;
+    font-style: italic;
+    padding-top: 20pt;
+    line-height: 30pt;
+}
+
+span {
+    font-size: 20pt;
+    padding-bottom: 30pt;
 }
 
 main {
@@ -29,10 +45,11 @@ main {
     grid-column: 1/2;
     grid-row: 1/2;
     text-align: left;
+    padding-left: 20pt;
 }
 
 .profile_title {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #C5D3EE;
     text-align: center;
     padding-bottom: 10pt;
 }
@@ -40,25 +57,27 @@ main {
 .education {
     grid-column: 1/2;
     grid-row: 2/3;
+    padding-left: 10pt;
 }
 
 .education > p{
     margin-top: 0;
-    margin-left: 10px;
+    margin-left: 18px;
 }
 
 .education > h4 {
     margin-bottom: 2px;
-    margin-left: 10px;
+    margin-left: 18px;
 }
 
 .education_title {
     /* border: 1px solid; */
     text-align: center;
-    height: 30px;
+    height: 25pt;
     margin: 10px;
     padding-top: 10px;
-    background-color: aquamarine;
+    background-color: #C5D3EE;
+    margin-left: 20pt;
 }
 
 .experience {
@@ -84,10 +103,10 @@ main {
 .experience > h3 {
     /* border: 1px solid; */
     text-align: center;
-    height: 30px;
+    height: 25pt;
     margin-top: 10px;
     padding-top: 10px;
-    background-color: aquamarine;
+    background-color: #C5D3EE;
 }
 
 .job_one {
@@ -130,7 +149,8 @@ img {
     margin-right: 40pt;
     margin-left: 40pt;
     margin-top: 10px;
-    background-color: aquamarine;
+    background-color: #C5D3EE;
+    line-height: 20pt;
 }
 
 .skill_title {
@@ -142,10 +162,11 @@ img {
 .contact {
     grid-column: 4/5;
     grid-row: 1/2;
+    padding-right: 20pt;
 }
 
 .reach_me {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid #C5D3EE;
     text-align: center;
     padding-bottom: 10pt;
 }
@@ -153,10 +174,13 @@ img {
 .expertise {
     grid-column: 4/5;
     grid-row: 2/3;
+    padding-right: 10pt;
+    font-weight: bold;
 }
 
-.expertise > p{
+.expertise > p {
     margin-top: 0;
+    line-height: 20pt;
 }
 
 .expertise > h4 {
@@ -167,10 +191,11 @@ img {
 .expertise_title {
     /* border: 1px solid; */
     text-align: center;
-    height: 30px;
+    height: 25pt;
     margin: 10px;
+    margin-right: 20pt;
     padding-top: 10px;
-    background-color: aquamarine;
+    background-color: #C5D3EE;
 }
 
 .expertise > p {
