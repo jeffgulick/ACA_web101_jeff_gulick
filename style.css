@@ -39,6 +39,11 @@ body {
     
   }
 
+  .port {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+  }
   main {
     height: auto;
     width: 100%;
