@@ -1,0 +1,33 @@
+/* contact page styles */
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F3131;
+    border: 2pt solid black;
+    height: 600pt;
+    width: 850pt;
+    margin-left: 70pt;
+}
+
+form {
+    border: 2pt solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+    width: 450pt;
+    background-color: yellowgreen;
+
+}
+
+#email {
+    /* margin-top: 5pt; */
+}
+
+#name {
+    /* margin-bottom: 5pt; */
+    /* margin-top: 5pt; */
+}
