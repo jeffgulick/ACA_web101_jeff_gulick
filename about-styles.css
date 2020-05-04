@@ -3,6 +3,8 @@
 .about_one {
     grid-area: one;
     background-color: #AEDEE8;
+    border-top: 1pt dotted;
+    margin-top: 10pt;
 } 
 
 .title {
@@ -30,6 +32,7 @@
 .about_four {
     grid-area: four;
     background-color: #235367;
+    border-bottom: 1pt dotted;
 }
 
 img {
@@ -88,6 +91,8 @@ article {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border-left: 1pt dotted;
+    border-right: 1pt dotted;
 }
 
 h1 {
@@ -95,7 +100,7 @@ h1 {
     /* border: 2pt solid; */
     width: 200pt;
     color: white;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 h2 {
@@ -106,6 +111,7 @@ h2 {
 
 ul {
     margin-top: 5pt;
+    padding-right: 10pt;
     /* display: flex;
     flex-direction: column; */
     /* justify-content: flex-start;
