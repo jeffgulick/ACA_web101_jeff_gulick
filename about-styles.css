@@ -2,27 +2,61 @@
 
 .about_one {
     grid-area: one;
+    background-color: #AEDEE8;
+} 
+
+.title {
+    background-color: #178CDB;
+}
+
+.bar_one {
+    background-color: #002D3C;
 }
 
 .about_two {
     grid-area: two;
+    background-color: #AEDEE8;
+}
+
+.bar_two {
+    background-color: #002D3C;
 }
 
 .about_three {
     grid-area: three;
+    background-color: #235367;
 }
 
 .about_four {
     grid-area: four;
+    background-color: #235367;
 }
 
 img {
     border-radius: 50%;
 }
 
+.bottom_pic {
+    height: 100pt;
+    width: 200pt;
+    border-radius: 0%;
+    margin-bottom: 10pt;
+}
+
+.top {
+    width: 300pt;
+    height: 40pt;
+    border-radius: 0%;
+    margin-bottom: 10pt;
+    color: black;
+    text-align: center;
+}
+
 body {
     font-size: 1em;
-    height: 900pt;
+    margin-left: 30pt;
+    margin-right: 30pt;
+    height: 1000pt;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
@@ -61,7 +95,21 @@ h1 {
     /* border: 2pt solid; */
     width: 200pt;
     color: white;
-    background-image: url(black_two.jpg);
+    border-radius: 50%;
+}
+
+h2 {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    width: 150pt;
+}
+
+ul {
+    margin-top: 5pt;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: flex-start;
+    align-items: flex-start; */
 }
 
 @media (min-width: 576px) {
